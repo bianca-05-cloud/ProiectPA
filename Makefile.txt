@@ -1,0 +1,5 @@
+gameoflife: PROIECT-GAMEOFLIFE.c
+	gcc PROIECT-GAMEOFLIFE.c -o gameoflife -Wall -Wextra -g
+
+clean:
+	rm -f gameoflife
