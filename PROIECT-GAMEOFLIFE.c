@@ -102,7 +102,7 @@ int main(int argc, char* argv[])
  
     FILE *in, *out;
     in = fopen(argv[1], "rt");
-    printf("Fisierul de in este: %s\n", argv[1]);
+    //printf("Fisierul de in este: %s\n", argv[1]);
  
     if(in == NULL)
     {
@@ -111,7 +111,7 @@ int main(int argc, char* argv[])
     }
  
     out = fopen(argv[2], "wt");
-    printf("Fisierul de out este: %s\n", argv[2]);
+    //printf("Fisierul de out este: %s\n", argv[2]);
  
     if(out == NULL)
     {
