@@ -12,8 +12,8 @@
   <line>Command: /mnt/c/Users/Bianca/Desktop/Semestrul 2/PA/PROIECT PA/PROIECT-GAMEOFLIFE /mnt/c/Users/Bianca/Desktop/Semestrul 2/PA/PROIECT PA/in/data8.in /mnt/c/Users/Bianca/Desktop/Semestrul 2/PA/PROIECT PA/out/data8.out</line>
 </preamble>
 
-<pid>15694</pid>
-<ppid>15650</ppid>
+<pid>10228</pid>
+<ppid>10196</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -38,7 +38,7 @@
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:01.362 </time>
+  <time>00:00:00:01.345 </time>
 </status>
 
 <errorcounts>
