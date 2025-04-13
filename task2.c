@@ -8,19 +8,19 @@ int main(int argc, char* argv[])
     FILE *in, *out;
     in = fopen(argv[1], "rt");
 
-   /* if(in == NULL)
+    if(in == NULL)
     {
         puts("Fisierul nu poate fi deschis");
         exit(1);
-    }*/
+    }
 
     out = fopen(argv[2], "wt");
 
-    /*if(out == NULL)
+    if(out == NULL)
     {
         puts("Fisierul nu poate fi deschis");
         exit(1);
-    }*/
+    }
 
     //citim elementele de input din fisier
     fscanf(in, "%d", &T);  
