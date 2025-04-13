@@ -123,6 +123,9 @@ int main(int argc, char* argv[])
     fscanf(in, "%d %d", &N, &M);  
     fscanf(in, "%d", &K);  
  
+    if(T==1)
+    {
+
     // Alocăm memorie pentru matricea principală (m) și matricea auxiliară (q)
     char** m = (char**)malloc(N * sizeof(char*));
     char** q = (char**)malloc(N * sizeof(char*));
@@ -167,6 +170,6 @@ int main(int argc, char* argv[])
  
     free(m);
     free(q);
- 
+}
     return 0;
 }
